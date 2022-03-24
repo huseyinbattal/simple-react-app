@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 2px;
+  width: 100%;
+}
+
+
+.imgSlider{
+  width: 80% !important;
+  margin: 0px auto;
+  border: 3px solid orchid;
+  border-radius: 10px
+}
+
+.formControl{
+  width: 50%;
+  /* margin: 10px; */
+  margin: 20px auto;
+  background-color: blanchedalmond;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid darkorange;
+  text-align: left;
+}
+
+.formControlInside{
+  width: 60%;
+  margin: 10px auto;
+}
+
+.alertPage{
+  width:40% ;
+  text-align: center;
+  margin: 10px auto;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+.about{
+  width: 50%;
+  margin-left: 25%;
+  font-size: large;
+}
+
+.fetcherror{
+  width: 50%;
+  margin: 10px auto;
+}
+
+.userTable{
+  /* display: grid;
+  align-items: "center";
+  justify-content: "start"; */
+  border:1px dotted orange;
+  border-radius: 20px;
+}
+
+.searchInput{
+  width: 40%;
+  margin-left: 30%;
+}
