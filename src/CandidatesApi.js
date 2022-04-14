@@ -11,7 +11,7 @@ const CandidatesApi = () => {
     const [isLoaded, setIsLoaded] = useState(false);
     const [users, setUsers] = useState([]);
     useEffect(() => {
-        fetch("https://jsonplaceholder.typicode.com/users/")
+        fetch("https://adasasds.herokuapp.com/users")
             .then(res => res.json())
             .then(
                 (data) => {
